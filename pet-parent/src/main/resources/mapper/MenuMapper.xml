@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.petparent.mapper.MenuMapper">
+    <resultMap id="menuResultMap" type="com.example.petparent.entity.Menu">
+        <id property="id" column="id" jdbcType="VARCHAR"/>
+        <result property="id" column="id" jdbcType="VARCHAR"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="path" column="path" jdbcType="VARCHAR"/>
+        <result property="icon" column="icon" jdbcType="VARCHAR"/>
+        <result property="description" column="description" jdbcType="VARCHAR"/>
+        <result property="state" column="state" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <select id="selectMenuPage" resultType="com.example.petparent.entity.Menu">
+        SELECT * FROM sys_menu
+        <where>
+            <if test="menu.id != null and menu.id !='' ">
+                AND sys_menu.pid = #{menu.id}
+            </if>
+            <if test="menu.name != null and menu.name !='' ">
+                AND sys_menu.name like '%${menu.name}%'
+            </if>
+            <if test="menu.state != null and menu.state !='' ">
+                AND sys_menu.state like '%${menu.state}%'
+            </if>
+        </where>
+            order by sort ASC
+    </select>
+
+</mapper>

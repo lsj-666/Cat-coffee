@@ -1,0 +1,155 @@
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('胆小', '喜欢高处', '0', '-1', 'http://localhost:9090/file/07c65d3e37e84a7182dbb929d0425b3d.png', '3', '0', '1678796480525389549', '小黑', '1', '-1', '3', '0', '0');
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('胆小', '干饭', '0', '11111', 'http://localhost:9090/file/d44f924e92154973a0eb9d0bfaf494bc.png', '3', '1', '1678796778363186915', '花花', '1', '0', '3', '0', '0');
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('大大咧咧', '玩耍', '0', '123', 'http://localhost:9090/file/5b8a3d34eb5644129d166afdeac80048.png', '1', '1', '1678797161315229764', 'mimi', '0', '0', '3', '0', '0');
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('骂骂咧咧', '睡觉', '0', '123', 'http://localhost:9090/file/1653e03d7fd84889b0d5ee27f62c57b2.png', '1', '1', '1678797206193446282', '娜娜', '0', '2', '3', '0', '0');
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('顽皮', '干饭', '0', '-1', 'http://localhost:9090/file/9aed2a33e54a413fa8b35abea1b9233c.png', '3', '0', '1678798422878332436', '小白', '1', '-1', '3', '0', '0');
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('稳重', '睡觉', '0', '-1', 'http://localhost:9090/file/3d634aa0d7aa4ca6909eef866942973d.png', '4', '0', '1678798480723659101', '大白', '1', '-1', '3', '0', '0');
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('稳重', '干饭', '0', '-1', 'http://localhost:9090/file/f10bae90acc5401698b4566cc42e9894.png', '3', '0', '1678798497358745901', '雪糕', '1', '-1', '3', '0', '0');
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('稳重', '干饭', '0', '-1', 'http://localhost:9090/file/3d3294d1103f4e3bb616cadc9c8ee066.png', '3', '0', '1678798505859964740', '棉花', '0', '-1', '3', '0', '0');
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('顽皮', '玩逗猫棒', '0', '-1', 'http://localhost:9090/file/d4a797a7531d4c2fae8212cf083a040d.png', '3', '0', '1678798519087818448', '点点', '0', '-1', '3', '0', '0');
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('稳重', '干饭', '0', '-1', 'http://localhost:9090/file/14df580bcd1e4e2b8e6f30bb763ee65a.png', '2', '0', '1678798527538965258', '短短', '1', '-1', '3', '0', '0');
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('顽皮', '玩逗猫棒', '0', '-1', 'http://localhost:9090/file/a2f61e66edef4645bce1f895619721e9.png', '2', '0', '1678798538693751332', '包子', '0', '-1', '3', '0', '0');
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('顽皮', '玩逗猫棒', '0', '-1', 'http://localhost:9090/file/a9faac6ad8cc4714a9cb8ddcdcc36886.png', '2', '0', '1678798550018811996', '奶昔', '1', '-1', '3', '0', '0');
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('胆小', '喜欢高处', '0', '-1', 'http://localhost:9090/file/028bfde78376455c8cf434af1420dde5.png', '1', '0', '1678798557914934767', '小米', '1', '-1', '3', '0', '0');
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('大大咧咧', '喜欢蹭人', '0', '-1', 'http://localhost:9090/file/6ae54a0f93bd4025ae763769030e8472.png', '1', '0', '1678798565375943491', '大米', '0', '-1', '3', '0', '0');
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('胆小', '喜欢高处', '0', '-1', 'http://localhost:9090/file/e991e9a42e5d472bb103de51cc6b43fd.png', '3', '0', '1678798583223678873', '肉肉', '0', '1', '3', '0', '0');
+INSERT INTO pet.store_ccat (habit, hobby, is_work, master, picture, age, flag, id, name, sex, status, vaccine_1, health, vaccine_2) VALUES ('胆小', '喜欢高处', '0', '-1', 'http://localhost:9090/file/f6105c99ba9c4329bdc54185ef205a4c.png', '5', '0', '1678798623724658449', '雪球', '1', '1', '3', '0', '0');
+
+
+INSERT INTO pet.store_meal (price, meal, time, userId, id) VALUES ('48', '1', '2023-04-11 16:36:05', '123', '1679820467472127061');
+INSERT INTO pet.store_meal (price, meal, time, userId, id) VALUES ('68', '3', '2023-03-26 17:18:46', '11111', '1679822348267343814');
+INSERT INTO pet.store_meal (price, meal, time, userId, id) VALUES ('58', '2', '2023-04-07 10:29:01', '11111', '1680834544116363996');
+INSERT INTO pet.store_meal (price, meal, time, userId, id) VALUES ('58', '2', '2023-04-07 10:33:19', '1600739274410463233', '1680834801149357853');
+
+
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (149, '958005e77a2f940c08512b2584c35cfa', 0, '1', 'http://localhost:9090/file/e2971802cf504b80a7922834500fa501.jpg', 'jpg', '66罗世杰_15024689105一寸.jpg', '1676509799837849541');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (753, 'b4ac007fd598738daf1bada7a6814046', 0, '1', 'http://localhost:9090/file/07c65d3e37e84a7182dbb929d0425b3d.png', 'png', '微信图片_20230219194944.png', '1678796283977147559');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (476, '3d6aa0a5204ef13d715a7d2e90d013a8', 0, '1', 'http://localhost:9090/file/d44f924e92154973a0eb9d0bfaf494bc.png', 'png', '微信图片_20230219195023.png', '1678796731855860885');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (310, '4e2a01c40fd7d7f7cbfbe95cd2d30047', 0, '1', 'http://localhost:9090/file/5b8a3d34eb5644129d166afdeac80048.png', 'png', '微信图片_20230314200853.png', '1678797110815118206');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (203, 'a3b978c0442ba141b73be31a68364b0e', 0, '1', 'http://localhost:9090/file/1653e03d7fd84889b0d5ee27f62c57b2.png', 'png', '微信图片_20230314200920.png', '1678797175532516682');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (367, 'a2a39b8dcb30930c3ebb45a76678c26b', 0, '1', 'http://localhost:9090/file/9aed2a33e54a413fa8b35abea1b9233c.png', 'png', '微信图片_20230219195025.png', '1678798309889847785');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (440, '4e67c64a9191df332fbbbdd6826a7cfa', 0, '1', 'http://localhost:9090/file/3d634aa0d7aa4ca6909eef866942973d.png', 'png', '微信图片_20230314200912.png', '1678798453636107992');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (290, 'e5c3c18d33f16fc39fe848c0d3e90813', 0, '1', 'http://localhost:9090/file/f10bae90acc5401698b4566cc42e9894.png', 'png', '微信图片_20230314200915.png', '1678798486787945442');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (278, '0eb9a5136147d7c50bd0924d5c9c3b55', 0, '1', 'http://localhost:9090/file/3d3294d1103f4e3bb616cadc9c8ee066.png', 'png', '微信图片_20230314200917.png', '1678798503680151133');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (72, 'a57b534e0e74827b602c33855d96fe7c', 0, '1', 'http://localhost:9090/file/d4a797a7531d4c2fae8212cf083a040d.png', 'png', '微信图片_20230314200926.png', '1678798514071620336');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (209, '6549d78f81f8f1294b27e0a510a4b60d', 0, '1', 'http://localhost:9090/file/14df580bcd1e4e2b8e6f30bb763ee65a.png', 'png', '微信图片_20230314200923.png', '1678798525721525931');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (110, '89140203f295857246ab0c3b2e405424', 0, '1', 'http://localhost:9090/file/a2f61e66edef4645bce1f895619721e9.png', 'png', '微信图片_20230314200929.png', '1678798534530506070');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (105, '9992290e6b87b88eea9c842d5a08f24e', 0, '1', 'http://localhost:9090/file/a9faac6ad8cc4714a9cb8ddcdcc36886.png', 'png', '微信图片_20230314200931.png', '1678798543904226962');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (86, '5d571cc21b788a30384aee334b3ca37f', 0, '1', 'http://localhost:9090/file/028bfde78376455c8cf434af1420dde5.png', 'png', '微信图片_20230314200934.png', '1678798555282234252');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (478, 'ffcb4ca1d32ce3f266acdb6eea8299a7', 0, '1', 'http://localhost:9090/file/6ae54a0f93bd4025ae763769030e8472.png', 'png', '微信图片_20230314201925.png', '1678798563225146742');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (360, 'f968a189c1c3f7ca6420eb8cde37051e', 0, '1', 'http://localhost:9090/file/e991e9a42e5d472bb103de51cc6b43fd.png', 'png', '微信图片_20230314201928.png', '1678798570531210821');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (300, '4b4e82f735eb88bba644dd5718b7c0ac', 0, '1', 'http://localhost:9090/file/f6105c99ba9c4329bdc54185ef205a4c.png', 'png', '微信图片_20230314201949.png', '1678798618052723808');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (13, '426eb16af36dcc2e1c4aab1eebac78eb', 0, '0', 'http://localhost:9090/file/9cbadb0e36af4c3797a9d56d09d34d32.docx', 'docx', '猫咖注意事项.docx', '1678799120155339529');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (13, '358ab825f96636b70aa530badf8da778', 0, '0', 'http://localhost:9090/file/882f5e614d754c7da62f8a8a28089243.docx', 'docx', '铲屎官的养猫手册一.docx', '1678799612253692621');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (13, '8f658190b9180c02eba53eff7271a040', 0, '0', 'http://localhost:9090/file/329f18f469474c178daa48c6443b855c.docx', 'docx', '铲屎官的养猫手册二.docx', '1678799628394693661');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (8, '92956ac2c6f579d6added753b2058578', 0, '0', 'http://localhost:9090/file/10b5df8f4daa453595469a843f87ad8b.xlsx', 'xlsx', '不同品种的猫咪数据.xlsx', '1678799663848883092');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (44, '17a887e3f48ad4fb12623a199804a25c', 0, '0', 'http://localhost:9090/file/9b7af868355a4a55a0520ada56f68fda.pdf', 'pdf', '铲屎官的养猫手册二.pdf', '1678799712217572930');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (157, '4c7a9ab3875df076fd44d3e92fe9d28b', 0, '1', 'http://localhost:9090/file/fab933b1ffd244c5b448ecb875304124.jpg', 'jpg', '5.jpg', '1678962485334551187');
+INSERT INTO pet.sys_files (size, md5, enable, is_delete, url, type, name, id) VALUES (45, '609c031c534e5b09604028d0dbc54922', 0, '1', 'http://localhost:9090/file/a518988ca6024cbba4afcc59e2105d74.png', 'png', '微信图片_20230316182939.png', '1678962606608671998');
+
+
+INSERT INTO pet.sys_icon (type, value, name) VALUES (null, 'el-icon-coordinate', 'role');
+INSERT INTO pet.sys_icon (type, value, name) VALUES (null, 'el-icon-discount', 'mypet');
+INSERT INTO pet.sys_icon (type, value, name) VALUES (null, 'el-icon-files', 'file');
+INSERT INTO pet.sys_icon (type, value, name) VALUES (null, 'el-icon-menu', 'menu');
+INSERT INTO pet.sys_icon (type, value, name) VALUES (null, 'el-icon-s-home', 'house');
+INSERT INTO pet.sys_icon (type, value, name) VALUES (null, 'el-icon-s-shop', 'shop');
+INSERT INTO pet.sys_icon (type, value, name) VALUES (null, 'el-icon-setting', 'system');
+INSERT INTO pet.sys_icon (type, value, name) VALUES (null, 'el-icon-tickets', 'message');
+INSERT INTO pet.sys_icon (type, value, name) VALUES (null, 'el-icon-user', 'user');
+INSERT INTO pet.sys_icon (type, value, name) VALUES (null, 'el-icon-user-solid', 'mine');
+INSERT INTO pet.sys_icon (type, value, name) VALUES (null, 'el-icon-wallet', 'wallet');
+
+
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES ('Home', '主页', 'el-icon-house', '/home', '主页', '1675164540597274284', '-1', '1', 1);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES (null, '系统管理', 'el-icon-setting', '', '系统管理', '1675164550955190463', '-1', '1', 90);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES ('UserManage/User', '用户管理', 'el-icon-user', '/user', '用户管理', '1675166944936975795', '1675164550955190463', '1', 91);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES ('UserManage/Role', '角色管理', 'el-icon-s-check', '/role', '角色管理', '1675166965326370487', '1675164550955190463', '1', 92);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES ('UserManage/Menu', '菜单管理', 'el-icon-menu', '/menu', '菜单管理', '1675166981424968528', '1675164550955190463', '1', 93);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES ('Mine/mine', '我的宠物', 'el-icon-discount', '/mine', '我的宠物', '1675170134878158424', '1676341379685583029', '1', 21);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES (null, '我的', 'el-icon-user-solid', '', '我的', '1676341379685583029', '-1', '1', 20);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES ('Mine/person', '我的信息', 'el-icon-tickets', '/person', '我的信息', '1676343245194624606', '1676341379685583029', '1', 22);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES (null, '门店信息', 'el-icon-s-home', '', '门店信息', '1676362214493390680', '-1', '1', 30);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES ('Stores/Bcat', '本地喵', 'el-icon-s-shop', '/bcat', '本地喵', '1676362305770865579', '1676362214493390680', '1', 33);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES ('Stores/Workcat', '打工喵', 'el-icon-s-shop', '/workcat', '打工喵', '1676362305770865591', '1676362214493390680', '1', 32);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES ('Stores/Ccat', '外地喵', 'el-icon-s-shop', '/ccat', '外地喵', '1676362305770865599', '1676362214493390680', '1', 34);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES ('UserManage/Files', '文件管理', 'el-icon-files', '/file', '文件管理', '1676530997086456090', '1676341379685583029', '1', 23);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES ('Stores/Dcat', '猫咪领养', 'el-icon-tickets', '/Dcat', '猫咪领养', '1677670131729705251', '1676362214493390680', '1', 36);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES ('Stores/Shop', '门店详情', 'el-icon-s-shop', '/shop', '门店详情', '1678069246771316467', '1676362214493390680', '1', 31);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES ('Stores/Meal', '预约管理', 'el-icon-tickets', '/meal', '预约管理', '1678863042224856633', '1676362214493390680', '1', 37);
+INSERT INTO pet.sys_menu (page_path, description, icon, path, name, id, pid, state, sort) VALUES ('Mine/MyMeal', '我的预约', 'el-icon-tickets', '/myMeal', '我的预约', '1678863352602163634', '1676341379685583029', '1', 24);
+
+
+INSERT INTO pet.sys_role (id, description, name, flag) VALUES ('11111', '顾客', '顾客', '3');
+INSERT INTO pet.sys_role (id, description, name, flag) VALUES ('123', '系统管理员', '系统管理员', '1');
+INSERT INTO pet.sys_role (id, description, name, flag) VALUES ('1599388145298735106', '店长', '店长', '2');
+
+
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('1599388145298735106', '1675164540597274284');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('1599388145298735106', '1675170134878158424');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('1599388145298735106', '1676343245194624606');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('1599388145298735106', '1676530997086456090');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('1599388145298735106', '1676362214493390680');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('1599388145298735106', '1678069246771316467');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('1599388145298735106', '1676362305770865591');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('1599388145298735106', '1676362305770865579');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('1599388145298735106', '1676362305770865599');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('1599388145298735106', '1677670131729705251');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('1599388145298735106', '1678863042224856633');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('1599388145298735106', '1675166944936975795');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('11111', '1675164540597274284');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('11111', '1676341379685583029');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('11111', '1675170134878158424');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('11111', '1676343245194624606');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('11111', '1676530997086456090');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('11111', '1678863352602163634');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('11111', '1678069246771316467');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('11111', '1676362305770865591');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('11111', '1676362305770865579');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('11111', '1676362305770865599');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('11111', '1677670131729705251');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1675164540597274284');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1676341379685583029');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1675170134878158424');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1676343245194624606');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1676530997086456090');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1678863352602163634');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1676362214493390680');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1678069246771316467');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1676362305770865591');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1676362305770865579');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1676362305770865599');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1677670131729705251');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1678863042224856633');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1675164550955190463');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1675166944936975795');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1675166965326370487');
+INSERT INTO pet.sys_role_menu (role_id, menu_id) VALUES ('123', '1675166981424968528');
+
+
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '1', null, '-1', '-1', '-1', '123456', '原住民', '-1', 'http://localhost:9090/file/e2971802cf504b80a7922834500fa501.jpg', '2023-02-24 21:18:50', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('0', '2', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', 'jlq', '11111', null, '2022-12-08 17:01:38', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '1', '111222', '123456789@qq.com', '12345678900', '翻斗花园', '123', 'lsj', '123', 'http://localhost:9090/file/a518988ca6024cbba4afcc59e2105d74.png', '2022-12-08 17:01:38', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '张三', '1599388145298735106', 'http://localhost:9090/file/a518988ca6024cbba4afcc59e2105d74.png', '2022-12-08 17:01:38', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '李四', '1599389807224594434', null, '2022-12-08 17:01:38', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', 'test1', '王五', '1600739274410463233', null, '2022-12-08 17:01:38', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '赵六', '1600739308438851586', null, '2022-12-08 17:01:38', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '老八', '1600739360636964865', null, '2022-12-08 17:01:38', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '九九', '1600739385710514177', null, '2022-12-08 17:01:38', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '拾十', '1600739417637556226', null, '2022-12-08 17:01:38', '0');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '张伟', '1600762211196747778', null, '2022-12-08 17:01:38', '0');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('0', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '诸葛大力', '1600762441547923457', null, '2022-12-08 17:01:38', '0');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('0', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '胡一菲', '1669539632642772458', null, '2022-12-08 17:01:38', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('0', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '陈美嘉', '1669641628889517338', null, '2022-12-08 17:01:38', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '吕子乔', '1669797207531672236', null, '2022-12-08 17:01:38', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '曾小贤', '1669900198336676371', null, '2022-12-08 17:01:38', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '关谷神奇', '1670486590710860158', null, '2022-12-08 17:01:38', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('0', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '秦羽墨', '1670490119083486181', null, '2022-12-08 17:01:59', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('0', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '唐悠悠', '1672711100599632326', null, '2023-01-03 09:58:20', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('0', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '小雨淅淅', '1672730252561813328', null, '2023-01-03 15:17:32', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('0', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '魏本霞', '1675769662518832982', null, '2023-02-07 19:34:22', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '2', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '陆展博', '1676360588811381994', null, '2023-02-14 15:43:08', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('0', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '林婉瑜', '1676783830714633861', null, '2023-02-19 13:17:10', '0');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', '大师兄', '1676783873241741448', null, '2023-02-19 13:17:53', '0');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('1', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', 'lsj123', '1682139400575779032', 'http://localhost:9090/file/a518988ca6024cbba4afcc59e2105d74.png', '2023-04-22 12:56:40', '1');
+INSERT INTO pet.sys_user (sex, role, nickname, email, phone, address, password, username, id, avatar_url, modifyTime, status) VALUES ('0', '3', null, '123456789@qq.com', '12345678900', '翻斗花园', '123456', 'lsj456', '1682139400588578179', 'http://localhost:9090/file/a518988ca6024cbba4afcc59e2105d74.png', '2023-04-22 12:56:40', '1');

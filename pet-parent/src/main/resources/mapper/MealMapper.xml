@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.petparent.mapper.MealMapper">
+    <resultMap id="bcatResultMap" type="com.example.petparent.entity.Meal">
+        <id property="id" column="id" jdbcType="VARCHAR"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="userId" column="userId" jdbcType="VARCHAR"/>
+        <result property="price" column="price" jdbcType="VARCHAR"/>
+        <result property="meal" column="meal" jdbcType="VARCHAR"/>
+        <result property="time" column="time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+    <select id="selectMealPage" resultType="com.example.petparent.entity.Meal">
+        SELECT store_meal.*,sys_user.username FROM store_meal
+        LEFT JOIN  sys_user ON store_meal.userId = sys_user.id
+        <where>
+            <if test="meal.userId != null and meal.userId !='' ">
+                AND store_meal.userId = #{meal.userId}
+            </if>
+            <if test="meal.meal != null and meal.meal !='' ">
+                AND store_meal.meal = #{meal.meal}
+            </if>
+            <if test="meal.startTime != null and meal.startTime !='' ">
+                and store_meal.time &gt;= #{meal.startTime}
+            </if>
+            <if test="meal.endTime != null and meal.endTime !='' ">
+                and store_meal.time &lt;= #{meal.endTime}
+            </if>
+
+        </where>
+    </select>
+
+    <select id="selectOneMeal" resultType="com.example.petparent.entity.Meal">
+        SELECT store_meal.price,store_meal.time,store_meal.userId,store_meal.id,
+               case store_meal.meal when 1 then '48元单人不限时体验券' when 2 then '58元单人不限时体验券'
+                   when 3 then '68元单人不限时体验券' when 4 then '78元单人不限时体验券' end as meal,
+               sys_user.username FROM store_meal
+                                          LEFT JOIN  sys_user ON store_meal.userId = sys_user.id
+        order by id DESC limit 1;
+    </select>
+
+
+</mapper>

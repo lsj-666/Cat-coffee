@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.petparent.mapper.CcatMapper">
+    <resultMap id="menuResultMap" type="com.example.petparent.entity.Ccat">
+        <result property="id" column="id" jdbcType="VARCHAR"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="sex" column="sex" jdbcType="VARCHAR"/>
+        <result property="picture" column="picture" jdbcType="BLOB"/>
+        <result property="habit" column="habit" jdbcType="VARCHAR"/>
+        <result property="hobby" column="hobby" jdbcType="VARCHAR"/>
+        <result property="isWork" column="is_work" jdbcType="VARCHAR"/>
+        <result property="status" column="status" jdbcType="VARCHAR"/>
+        <result property="master" column="master" jdbcType="VARCHAR"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="age" column="age" jdbcType="VARCHAR"/>
+        <result property="count" column="count(status)" jdbcType="VARCHAR"/>
+        <result property="vaccine1" column="vaccine_1" jdbcType="VARCHAR"/>
+        <result property="vaccine2" column="vaccine_2" jdbcType="VARCHAR"/>
+        <result property="health" column="health" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <select id="selectCcatPage" resultMap="menuResultMap">
+        SELECT store_ccat.*,sys_user.username FROM store_ccat
+        LEFT JOIN  sys_user ON store_ccat.master = sys_user.id
+        <where>
+            <if test="ccat.sex != null and ccat.sex !='' ">
+                AND store_ccat.sex = #{ccat.sex}
+            </if>
+            <if test="ccat.master != null and ccat.master !='' ">
+                AND store_ccat.master = #{ccat.master}
+            </if>
+            <if test="ccat.isWork != null and ccat.isWork !='' ">
+                AND store_ccat.is_work = #{ccat.isWork}
+            </if>
+            <if test="ccat.status != null and ccat.status !='' ">
+                AND store_ccat.status = #{ccat.status}
+            </if>
+            <if test="ccat.name != null and ccat.name !='' ">
+                and store_ccat.name like '%${ccat.name}%'
+            </if>
+            <if test="ccat.flag != null and ccat.flag !='' ">
+                and store_ccat.flag = #{ccat.flag}
+            </if>
+            <if test="ccat.vaccine1 != null and ccat.vaccine1 !='' ">
+                and store_ccat.vaccine_1 = #{ccat.vaccine1}
+            </if>
+            <if test="ccat.vaccine2 != null and ccat.vaccine2 !='' ">
+                and store_ccat.vaccine_2 = #{ccat.vaccine2}
+            </if>
+            <if test="ccat.health != null and ccat.health !='' ">
+                and store_ccat.health = #{ccat.health}
+            </if>
+
+        </where>
+    </select>
+    <select id="selectMinecatPage" resultMap="menuResultMap">
+        SELECT store_ccat.*,sys_user.username FROM store_ccat
+        LEFT JOIN  sys_user ON store_ccat.master = sys_user.id
+        <where>
+            <if test="ccat.sex != null and ccat.sex !='' ">
+                AND store_ccat.sex = #{ccat.sex}
+            </if>
+            <if test="ccat.master != null and ccat.master !='' ">
+                AND store_ccat.master = #{ccat.master}
+            </if>
+            <if test="ccat.isWork != null and ccat.isWork !='' ">
+                AND store_ccat.is_work = #{ccat.isWork}
+            </if>
+            <if test="ccat.status != null and ccat.status !='' ">
+                AND store_ccat.status = #{ccat.status}
+            </if>
+            <if test="ccat.name != null and ccat.name !='' ">
+                and store_ccat.name like '%${ccat.name}%'
+            </if>
+            <if test="ccat.vaccine1 != null and ccat.vaccine1 !='' ">
+                and store_ccat.vaccine_1 = #{ccat.vaccine1}
+            </if>
+            <if test="ccat.vaccine2 != null and ccat.vaccine2 !='' ">
+                and store_ccat.vaccine_2 = #{ccat.vaccine2}
+            </if>
+            <if test="ccat.health != null and ccat.health !='' ">
+                and store_ccat.health = #{ccat.health}
+            </if>
+            and master = #{ccat.master}
+        </where>
+    </select>
+
+
+    <select id="selectDcatPage" resultMap="menuResultMap">
+        SELECT store_ccat.*,sys_user.username FROM store_ccat
+        LEFT JOIN  sys_user ON store_ccat.master = sys_user.id
+        <where>
+            <if test="ccat.sex != null and ccat.sex !='' ">
+                AND store_ccat.sex = #{ccat.sex}
+            </if>
+            <if test="ccat.master != null and ccat.master !='' ">
+                AND store_ccat.master = #{ccat.master}
+            </if>
+            <if test="ccat.isWork != null and ccat.isWork !='' ">
+                AND store_ccat.is_work = #{ccat.isWork}
+            </if>
+            <if test="ccat.status != null and ccat.status !='' ">
+                AND store_ccat.status = #{ccat.status}
+            </if>
+            <if test="ccat.name != null and ccat.name !='' ">
+                and store_ccat.name like '%${ccat.name}%'
+            </if>
+            <if test="ccat.flag != null and ccat.flag !='' ">
+                and store_ccat.flag = #{ccat.flag}
+            </if>
+            <if test="ccat.vaccine1 != null and ccat.vaccine1 !='' ">
+                and store_ccat.vaccine_1 = #{ccat.vaccine1}
+            </if>
+            <if test="ccat.vaccine2 != null and ccat.vaccine2 !='' ">
+                and store_ccat.vaccine_2 = #{ccat.vaccine2}
+            </if>
+            <if test="ccat.health != null and ccat.health !='' ">
+                and store_ccat.health = #{ccat.health}
+            </if>
+
+        </where>
+    </select>
+
+    <select id="getAllCats" resultType="int">
+        select count(*) from store_ccat
+    </select>
+
+    <select id="getAtStoreCats" resultType="java.lang.Integer">
+        select count(*) from store_ccat where status != 2
+    </select>
+
+    <select id="getWorkCats" resultType="java.lang.Integer">
+        select count(*) from store_ccat where is_work = 1;
+    </select>
+
+    <select id="getPieExample" resultMap="menuResultMap">
+        select case
+                   when status = -1 then '本地喵'
+                   when status = 0 then '寄养'
+                   when status = 1 then '流浪'
+                   when status = 2 then '居家' end as name,count(status)
+        from store_ccat group by status;
+    </select>
+
+</mapper>

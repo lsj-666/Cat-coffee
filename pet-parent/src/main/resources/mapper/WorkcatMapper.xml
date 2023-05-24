@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.petparent.mapper.WorkcatMapper">
+    <resultMap id="menuResultMap" type="com.example.petparent.entity.Workcat">
+        <result property="id" column="id" jdbcType="VARCHAR"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="sex" column="sex" jdbcType="VARCHAR"/>
+        <result property="picture" column="picture" jdbcType="BLOB"/>
+        <result property="habit" column="habit" jdbcType="VARCHAR"/>
+        <result property="hobby" column="hobby" jdbcType="VARCHAR"/>
+        <result property="isWork" column="is_work" jdbcType="VARCHAR"/>
+        <result property="status" column="status" jdbcType="VARCHAR"/>
+        <result property="master" column="master" jdbcType="VARCHAR"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="vaccine1" column="vaccine_1" jdbcType="VARCHAR"/>
+        <result property="vaccine2" column="vaccine_2" jdbcType="VARCHAR"/>
+        <result property="health" column="health" jdbcType="VARCHAR"/>
+    </resultMap>
+    <update id="changeBToRest">
+        update store_bcat
+        set is_work = '0'
+        where id = #{id};
+    </update>
+    <update id="changeCToRest">
+        update store_ccat
+        set is_work = '0'
+        where id = #{id};
+    </update>
+    <select id="selectWorkcatPage" resultType="com.example.petparent.entity.Workcat">
+        SELECT store_ccat.*,sys_user.username FROM store_ccat
+        LEFT JOIN sys_user ON store_ccat.master = sys_user.id
+        <where>
+            <if test="workcat.sex != null and workcat.sex !='' ">
+                AND store_ccat.sex = #{workcat.sex}
+            </if>
+            <if test="workcat.master != null and workcat.master !='' ">
+                AND store_ccat.master = #{workcat.master}
+            </if>
+            <if test="workcat.isWork != null and workcat.isWork !='' ">
+                AND store_ccat.is_work = #{workcat.isWork}
+            </if>
+            <if test="workcat.status != null and workcat.status !='' ">
+                AND store_ccat.status = #{workcat.status}
+            </if>
+            <if test="workcat.name != null and workcat.name !='' ">
+                and store_ccat.name like '%${workcat.name}%'
+            </if>
+            <if test="workcat.vaccine1 != null and workcat.vaccine1 !='' ">
+                and store_ccat.vaccine_1 = #{workcat.vaccine1}
+            </if>
+            <if test="workcat.vaccine2 != null and workcat.vaccine2 !='' ">
+                and store_ccat.vaccine_2 = #{workcat.vaccine2}
+            </if>
+            <if test="workcat.health != null and workcat.health !='' ">
+                and store_ccat.health = #{workcat.health}
+            </if>
+            and is_work = 1
+        </where>
+    </select>
+
+    <update id="goBHome" >
+        <if test="list != null and list.size() > 0 ">
+            UPDATE store_bcat set is_work = 0 where id in
+            <foreach collection="list" item="item" index="index" open="(" separator="," close=")">
+                #{item}
+            </foreach>
+        </if>
+
+    </update>
+
+    <update id="goCHome">
+        <if test="list != null and list.size() > 0 ">
+            UPDATE store_ccat set is_work = 0 where id in
+            <foreach collection="list" item="item" index="index" open="(" separator="," close=")">
+                #{item}
+            </foreach>
+        </if>
+
+    </update>
+    <update id="backBHome">
+        UPDATE store_bcat set is_work = 0
+    </update>
+
+    <update id="backCHome">
+        UPDATE store_ccat set is_work = 0
+    </update>
+
+
+</mapper>

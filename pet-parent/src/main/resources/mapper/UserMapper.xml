@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.petparent.mapper.UserMapper">
+
+    <resultMap id="userResultMap" type="com.example.petparent.entity.User">
+        <id property="id" column="id" jdbcType="VARCHAR"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="password" column="password" jdbcType="VARCHAR"/>
+        <result property="address" column="address" jdbcType="VARCHAR"/>
+        <result property="phone" column="phone" jdbcType="VARCHAR"/>
+        <result property="email" column="email" jdbcType="VARCHAR"/>
+        <result property="role" column="role" jdbcType="VARCHAR"/>
+        <result property="sex" column="sex" jdbcType="VARCHAR"/>
+        <result property="nickname" column="nickname" jdbcType="VARCHAR"/>
+        <result property="avatarUrl" column="avatar_url" jdbcType="VARCHAR"/>
+        <result property="status" column="status" jdbcType="VARCHAR"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <select id="selectUserPage" resultMap="userResultMap">
+        SELECT sys_user.*,sys_role.name FROM sys_user
+        left join sys_role on sys_user.role = sys_role.flag
+        <where>
+            <if test="user.username != null and user.username !='' ">
+                AND sys_user.username like '%${user.username}%'
+            </if>
+            <if test="user.address != null and user.address !='' ">
+                AND sys_user.address like '%${user.address}%'
+            </if>
+            <if test="user.phone != null and user.phone !='' ">
+                AND sys_user.phone like '%${user.phone}%'
+            </if>
+            <if test="user.email != null and user.email !='' ">
+                AND sys_user.email like '%${user.email}%'
+            </if>
+            <if test="user.role != null and user.role !='' ">
+                AND sys_user.role = #{user.role}
+            </if>
+            <if test="user.sex != null and user.sex !='' ">
+                AND sys_user.sex = #{user.sex}
+            </if>
+            AND sys_user.status = '1'
+        </where>
+    </select>
+
+    <select id="listUsers" resultMap="userResultMap">
+        SELECT sys_user.username,sys_user.address,sys_user.email,
+               sys_user.phone,case sys_user.sex when 1 then '男' else '女' end as sex,
+               sys_user.avatar_url
+        FROM sys_user where status = 1
+
+    </select>
+
+    <select id="getCustomers" resultType="java.lang.Integer">
+        select count(*) from sys_user where status = 1 ;
+    </select>
+
+    <update id="deleteByUserId">
+        update sys_user set status = '0'  where id = #{id}
+    </update>
+
+</mapper>

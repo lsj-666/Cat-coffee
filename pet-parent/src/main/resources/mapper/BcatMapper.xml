@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.petparent.mapper.BcatMapper">
+    <resultMap id="bcatResultMap" type="com.example.petparent.entity.Bcat">
+        <id property="id" column="id" jdbcType="VARCHAR"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="sex" column="sex" jdbcType="VARCHAR"/>
+        <result property="picture" column="picture" jdbcType="VARCHAR"/>
+        <result property="habit" column="habit" jdbcType="VARCHAR"/>
+        <result property="hobby" column="hobby" jdbcType="VARCHAR"/>
+        <result property="isWork" column="is_work" jdbcType="VARCHAR"/>
+        <result property="status" column="status" jdbcType="VARCHAR"/>
+        <result property="master" column="master" jdbcType="VARCHAR"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+    </resultMap>
+    <select id="selectBcatPage" resultType="com.example.petparent.entity.Bcat">
+        SELECT store_bcat.*,sys_user.username FROM store_bcat
+        LEFT JOIN  sys_user ON store_bcat.master = sys_user.id
+        <where>
+            <if test="bcat.sex != null and bcat.sex !='' ">
+                AND store_bcat.sex = #{bcat.sex}
+            </if>
+            <if test="bcat.master != null and bcat.master !='' ">
+                AND store_bcat.master = #{bcat.master}
+            </if>
+            <if test="bcat.isWork != null and bcat.isWork !='' ">
+                AND store_bcat.is_work = #{bcat.isWork}
+            </if>
+            <if test="bcat.status != null and bcat.status !='' ">
+                AND store_bcat.status = #{bcat.status}
+            </if>
+            <if test="bcat.name != null and bcat.name !='' ">
+                and store_bcat.name like '%${bcat.name}%'
+            </if>
+
+        </where>
+    </select>
+
+
+</mapper>

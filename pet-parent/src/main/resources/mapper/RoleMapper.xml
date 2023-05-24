@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.petparent.mapper.RoleMapper">
+    <resultMap id="roleResultMap" type="com.example.petparent.entity.Role">
+        <id property="id" column="id" jdbcType="VARCHAR"/>
+        <result property="id" column="id" jdbcType="VARCHAR"/>
+        <result property="description" column="description" jdbcType="VARCHAR"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+    </resultMap>
+    <select id="selectRolePage" resultType="com.example.petparent.entity.Role">
+        SELECT * FROM sys_role
+        <where>
+            <if test="role.name != null and role.name !='' ">
+                AND sys_role.name like '%${role.name}%'
+            </if>
+            <if test="role.description != null and role.description !='' ">
+                AND sys_role.description like '%${role.description}%'
+            </if>
+        </where>
+    </select>
+
+</mapper>
