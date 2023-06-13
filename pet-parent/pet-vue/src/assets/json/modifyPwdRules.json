@@ -1,0 +1,24 @@
+{
+  "password": [
+    {
+      "required": true,
+      "message": "请输入初始密码",
+      "trigger": "blur"
+    },
+    { "min": 1, "max": 20, "message": "长度在 1 到 20 个字符" }
+  ],
+  "newPassword": [
+    {
+      "required": true,
+      "message": "请输入新密码",
+      "trigger": "blur"
+    }
+  ],
+  "againPassword": [
+    {
+      "required": true,
+      "message": "请再次输入新密码",
+      "trigger": "blur"
+    }
+  ]
+}

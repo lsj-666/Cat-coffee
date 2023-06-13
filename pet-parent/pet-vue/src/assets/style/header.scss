@@ -1,0 +1,97 @@
+.headerClass {
+    height: $height;
+
+    .headerClass-left {
+        width: 150px;
+
+        .el-icon-s-fold,
+        .el-icon-s-unfold {
+            cursor: pointer;
+            font-size: 25px;
+            line-height: $header-height;
+            border-right: 2px solid #e4e7ed;
+            width: 40px;
+            margin-right: 30px;
+        }
+
+        .el-icon-bell {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .headerClass-search {
+        width: 300px;
+        height: $header-height;
+        line-height: $header-height;
+        margin-right: 45px;
+        position: relative;
+
+        .rightLayer-input {
+            width: 280px;
+
+            .el-input__inner {
+                border: none;
+                border-bottom: 1px solid;
+                border-radius: 0px;
+            }
+        }
+    }
+
+    .ass-search {
+        color: #409eff;
+        cursor: pointer;
+        margin-top: 16px;
+        font-size: 20px;
+        font-weight: 900;
+        position: absolute;
+        right: -20px;
+        // border-bottom: 1px solid #646464;
+        padding: 0px 0px 8px 0px;
+    }
+
+    .headerClass-right {
+        width: auto;
+        text-align: right;
+        margin-right: 20px;
+        height: $header-height;
+        line-height: $header-height;
+        position: relative;
+        float: right;
+
+        .headerClass-right-upgrade {
+            margin-left: 40px;
+        }
+
+        .el-dropdown {
+            position: absolute;
+            margin-top: 10px;
+            height: 40px;
+            cursor: pointer;
+            margin-left: 85px;
+        }
+
+        .header-span {
+            margin-left: 120px;
+            background: #f90;
+            color: #fff;
+            padding: 2px 10px;
+            border-radius: 0px 6px 0px 12px;
+            font-size: 10px;
+        }
+
+        .el-divider {
+            background: #c0c4cc;
+        }
+
+        .el-image {
+            position: absolute;
+            top: 13px;
+            cursor: pointer;
+        }
+
+        .el-divider--vertical {
+            margin: 0px 15px;
+        }
+    }
+}

@@ -1,0 +1,378 @@
+.content-Breadcrumb {
+    padding: 5px 10px;
+    border-left: 8px solid #2b85e4;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #000;
+}
+
+.main-tags {
+    margin: 6px $marginLeft 1px $marginLeft;
+
+    .el-tag {
+        margin-right: 5px;
+        cursor: pointer;
+        margin-bottom: 3px;
+        // box-shadow: 0 2px 12px 0 #ccc;
+    }
+}
+
+.el-main {
+    padding: 0px $marginLeft 20px $marginLeft;
+}
+
+.main-card {
+    min-height: 500px;
+
+    .el-card__header {
+        padding: 12px 20px;
+    }
+
+    .el-card__body {
+        padding: 10px 20px;
+    }
+}
+
+.select-no-form {
+
+    .el-form-item {
+        margin-bottom: 0px;
+    }
+
+    .el-form-item-button {
+        margin-left: 30px;
+    }
+}
+
+.enter-from-submit {
+    .el-form-item {
+        margin-bottom: 10px;
+
+        .el-form-item__error {
+            padding-top: 0px;
+        }
+    }
+
+    .desc-form-item {
+        width: 100%;
+        margin-bottom: 20px;
+
+        .el-form-item__content {
+            width: 550px;
+            margin-top: 5px;
+
+            .el-input {
+                width: 100%;
+            }
+
+            .myQuillEditor {
+                height: 170px;
+                margin-bottom: 45px;
+
+                .ql-toolbar.ql-snow {
+                    padding: 0px;
+                }
+            }
+        }
+    }
+
+    .desc-form-item-copy {
+
+        .el-form-item__content {
+            width: calc(100% - 120px);
+        }
+    }
+
+    .my-form-item {
+        width: 210px;
+    }
+}
+
+.operating-btn {
+    margin-bottom: 5px;
+
+    .el-button {
+        margin-right: 10px;
+    }
+
+    .el-button+.el-button {
+        margin-left: 0px;
+    }
+}
+
+.btn-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination-center {
+    text-align: center;
+
+}
+
+@media screen and (min-height: 800px) {
+    .el-table td {
+        padding: 8px 0px;
+    }
+
+    .el-table th {
+        padding: 10px 0px;
+    }
+
+    .select-no-form {
+        margin-bottom: 20px;
+
+        .my-form-item {
+            width: 175px;
+        }
+        .my-from-item-datetime-range{
+            width: 460px;
+        }
+    }
+
+    .el-select-double{
+        width: 460px;
+    }
+
+    .pagination-center {
+        margin: 30px 0px;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .el-table td {
+        padding: 8px 0px;
+    }
+
+    .el-table th {
+        padding: 8px 0px;
+    }
+
+    .select-no-form {
+        margin-bottom: 10px;
+
+        .my-form-item {
+            width: 150px;
+        }
+        .my-from-item-datetime-range{
+            width: 410px;
+        }
+    }
+
+    .el-select-double{
+        width: 410px;
+    }
+
+    .pagination-center {
+        margin: 10px 0px;
+    }
+
+    .demandTableClass {
+        th {
+            padding: 0px;
+        }
+
+        td {
+            padding: 4px;
+        }
+    }
+}
+
+.double {
+    background: #f7f7f7 !important;
+}
+
+.single {
+    background: #ffffff !important;
+}
+
+.separator-symbol {
+    font-size: 14px;
+}
+
+.separator-title {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.interface-from-submit {
+    .el-form-item {
+        margin-bottom: 13px;
+
+        .el-form-item__error {
+            padding-top: 0px;
+        }
+    }
+
+    .desc-form-item {
+        width: 100%;
+
+        .el-form-item__content {
+            width: 700px;
+
+            .el-input {
+                width: 100%;
+            }
+
+            .el-radio-group {
+                width: 100%;
+            }
+        }
+    }
+
+    .my-form-item {
+        width: 260px;
+    }
+}
+
+.el-step__title {
+    font-size: 14px !important;
+}
+
+.details-title3 {
+    width: 75px;
+    height: 35px;
+    line-height: 35px;
+    display: -webkit-inline-box;
+    color: #000;
+    font-weight: 600;
+}
+
+.details-title4 {
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+    display: -webkit-inline-box;
+    color: #000;
+    font-weight: 600;
+}
+
+.details-title5 {
+    width: 110px;
+    height: 35px;
+    line-height: 35px;
+    display: -webkit-inline-box;
+    color: #000;
+    font-weight: 600;
+}
+
+.details-title6 {
+    width: 122px;
+    height: 35px;
+    line-height: 35px;
+    display: -webkit-inline-box;
+    color: #000;
+    font-weight: 600;
+}
+
+.details-title7 {
+    width: 142px;
+    height: 35px;
+    line-height: 35px;
+    display: -webkit-inline-box;
+    color: #000;
+    font-weight: 600;
+}
+
+.details-content3 {
+    display: -webkit-inline-box;
+    width: calc(100% - 75px);
+    overflow: hidden;
+    white-space: normal;
+    word-break: break-all;
+    color: #444;
+    font-size: 15px;
+}
+
+.details-content4 {
+    display: -webkit-inline-box;
+    width: calc(100% - 90px);
+    overflow: hidden;
+    white-space: normal;
+    word-break: break-all;
+    color: #444;
+    font-size: 15px;
+}
+
+.details-content5 {
+    display: -webkit-inline-box;
+    width: calc(100% - 120px);
+    overflow: hidden;
+    white-space: normal;
+    word-break: break-all;
+    color: #444;
+    font-size: 15px;
+}
+
+.details-content6 {
+    display: -webkit-inline-box;
+    width: calc(100% - 122px);
+    overflow: hidden;
+    white-space: normal;
+    word-break: break-all;
+    color: #444;
+    font-size: 15px;
+}
+
+.details-content7 {
+    display: -webkit-inline-box;
+    width: calc(100% - 142px);
+    overflow: hidden;
+    white-space: normal;
+    word-break: break-all;
+    color: #444;
+    font-size: 15px;
+}
+
+.details-content-dec {
+    white-space: pre-wrap;
+}
+
+.basic-information {
+    color: #06c;
+    margin-bottom: 15px;
+    font-size: 16px;
+
+    .basic-information-title {
+        border-bottom: 1px solid;
+        cursor: pointer;
+    }
+}
+
+.details-col {
+    margin-bottom: 30px;
+}
+
+.demandState-tag {
+    height: 25px;
+    line-height: 25px;
+}
+
+.el-tooltip__popper {
+    max-width: 50%;
+    font-size: 14px;
+}
+
+.decouplingMenu {
+    height: 10px;
+    width: 20px;
+    float: right;
+    background: #66b0fe;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.nestedMenu {
+    height: 10px;
+    width: 20px;
+    float: right;
+    background: #999;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.el-image-viewer__wrapper{
+    z-index: 3000 !important;
+}

@@ -1,0 +1,50 @@
+.app-div {
+    position: relative;
+
+    .login-div {
+        width: 380px;
+        height: 400px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+
+        .login-card {
+            text-align: center;
+            height: 100%;
+            border-radius: 10px;
+            margin-left: 450px;
+            width: 350px;
+            .login-card-title {
+                margin-top: 0px;
+                margin-bottom: 40px;
+            }
+
+            .login-card-form {
+                margin-top: 10px;
+            }
+
+            .login-card-btn {
+                margin-top: 30px;
+            }
+
+            .login-card-form,
+            .login-card-btn {
+
+                button {
+                    width: 100%;
+                }
+            }
+
+            .login-card-span {
+                margin-left: 180px;
+                font-size: 12px;
+                cursor: pointer;
+                color: #2b85e4;
+                margin-top: 10px;
+            }
+        }
+    }
+}

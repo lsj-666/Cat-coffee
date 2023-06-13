@@ -1,0 +1,18 @@
+.asideClass {
+    margin-bottom: 50px;
+
+    .el-menu-vertical-demo {
+        border: none;
+
+        .el-menu-item.is-active {
+            font-weight: 900;
+        }
+    }
+}
+
+.iWantToVomit {
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+    z-index: 9999;
+}
